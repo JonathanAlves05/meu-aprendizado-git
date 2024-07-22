@@ -1,0 +1,21 @@
+### Introdução ao Git e GitHub
+
+#### Git
+
+Git é um sistema de controle de versão distribuído, criado por Linus Torvalds em 2005. Ele permite:
+
+- **Rastreabilidade**: Acompanhar todas as alterações no código.
+- **Branching e Merging**: Trabalhar em diferentes ramificações e combinar mudanças.
+- **Distribuição**: Cada cópia do repositório tem o histórico completo, permitindo trabalho offline.
+
+#### GitHub
+
+GitHub é uma plataforma baseada na web que hospeda repositórios Git e facilita a colaboração. Suas principais funcionalidades incluem:
+
+- **Repositórios Remotos**: Compartilhamento e colaboração em projetos.
+- **Ferramentas de Colaboração**: Pull requests, issues e code reviews.
+- **Automação**: GitHub Actions para automatizar fluxos de trabalho.
+- **Integração**: Conexão com diversas ferramentas de desenvolvimento.
+
+Juntos, Git e GitHub formam uma poderosa combinação para gerenciamento de código e trabalho em equipe.
+
