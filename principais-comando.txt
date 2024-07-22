@@ -1,0 +1,38 @@
+### Principais Comandos do Git
+
+#### Configuração Inicial
+
+- `git config --global user.name "Seu Nome"`: Define o nome de usuário.
+- `git config --global user.email "seu.email@example.com"`: Define o email do usuário.
+
+#### Inicialização e Clonagem
+
+- `git init`: Inicializa um novo repositório Git.
+- `git clone <url-do-repositorio>`: Clona um repositório remoto.
+
+#### Controle de Versão Básico
+
+- `git status`: Mostra o estado das alterações no repositório.
+- `git add <arquivo>`: Adiciona um arquivo ao índice (staging area).
+- `git commit -m "mensagem"`: Salva as alterações no histórico do repositório.
+- `git log`: Exibe o histórico de commits.
+
+#### Branching e Merging
+
+- `git branch`: Lista as branches existentes.
+- `git branch <nome-da-branch>`: Cria uma nova branch.
+- `git checkout <nome-da-branch>`: Troca para a branch especificada.
+- `git merge <nome-da-branch>`: Mescla a branch especificada na branch atual.
+
+#### Repositórios Remotos
+
+- `git remote add origin <url-do-repositorio>`: Adiciona um repositório remoto.
+- `git push origin <nome-da-branch>`: Envia as alterações para o repositório remoto.
+- `git pull origin <nome-da-branch>`: Puxa as alterações do repositório remoto.
+
+#### Outros Comandos Úteis
+
+- `git diff`: Mostra as diferenças entre as alterações não commitadas.
+- `git reset <arquivo>`: Remove um arquivo do índice (staging area).
+- `git stash`: Salva temporariamente as alterações não commitadas para limpeza do diretório de trabalho.
+- `git stash pop`: Restaura as alterações salvas com `git stash`.

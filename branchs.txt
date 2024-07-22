@@ -1,0 +1,19 @@
+### Branches no Git
+
+Uma branch (ramificação) no Git é uma linha independente de desenvolvimento, permitindo que você trabalhe em funcionalidades ou correções de bugs de forma isolada do código principal.
+
+#### Principais Conceitos
+
+- **Criação de Branch**: Você pode criar uma nova branch para desenvolver uma funcionalidade ou correção sem afetar o código principal. Exemplo: `git branch nova-funcionalidade`.
+- **Troca de Branch**: Você pode alternar entre branches para trabalhar em diferentes partes do projeto. Exemplo: `git checkout nova-funcionalidade`.
+- **Mesclagem (Merge)**: Quando a funcionalidade ou correção estiver pronta, você pode mesclar a branch de volta à branch principal. Exemplo: `git merge nova-funcionalidade`.
+- **Branch Principal**: Por convenção, a branch principal é chamada de `main` ou `master`. É a linha de desenvolvimento estável onde todas as mudanças finais são integradas.
+
+#### Vantagens
+
+- **Isolamento**: Permite trabalhar em várias funcionalidades ou correções simultaneamente sem interferir no código principal.
+- **Colaboração**: Facilita o trabalho em equipe, pois cada membro pode trabalhar em suas próprias branches e depois mesclar as mudanças.
+- **Histórico Claro**: Mantém o histórico de desenvolvimento organizado e fácil de entender.
+
+
+Branches são fundamentais para um fluxo de trabalho eficiente e organizado no Git, permitindo desenvolvimento paralelo e integração contínua.
